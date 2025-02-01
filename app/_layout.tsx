@@ -43,7 +43,9 @@ export default function RootLayout() {
 						headerShown: false,
 					}}
 				/>
-				<Stack.Screen name='(tabs)' options={{ headerShown: false }} />
+				<Stack.Screen name='more/index' options={{ headerShown: false }} />
+				<Stack.Screen name='book/index' options={{ headerShown: false }} />
+				<Stack.Screen name='reading/index' options={{ headerShown: false }} />
 				<Stack.Screen name='+not-found' />
 			</Stack>
 			<StatusBar style='auto' />
